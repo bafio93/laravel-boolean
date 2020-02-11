@@ -6,8 +6,7 @@
         <link rel="stylesheet" href="{{ asset('app.css') }}">
     </head>
     <body>
-        <h1 class="bafbaf">TUTTO PERFETTO!</h1>
-        <a href="/faq">VADO ALLE FAQ</a>
+        @yield("content")
         <script src="{{ asset('app.js') }}" type="text/javascript"></script>
     </body>
 </html>

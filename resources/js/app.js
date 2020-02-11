@@ -1,5 +1,5 @@
 require('./bootstrap');
 var $ = require("jquery");
 $(document).ready(function(){
-  alert("OK");
+  alert("JS linkato e operativo!");
 });

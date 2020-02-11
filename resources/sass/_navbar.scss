@@ -1,7 +1,15 @@
 /* Stile nav */
 
+.baf-empty-space {
+    height: $altezza-nav;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    height: 90px;
+    height: $altezza-nav;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 
     &.navbar-expand-lg {
         justify-content: space-between;

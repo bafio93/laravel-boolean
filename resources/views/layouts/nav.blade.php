@@ -12,3 +12,4 @@
         </ul>
     </div>
 </nav>
+<div class="baf-empty-space"></div>

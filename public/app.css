@@ -6,8 +6,16 @@
 
 /* Stile nav */
 
+.baf-empty-space {
+  height: 90px;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   height: 90px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.navbar-expand-lg {

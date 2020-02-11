@@ -1,7 +1,54 @@
 @charset "UTF-8";
 
-h1.bafbaf {
-  color: red;
+* {
+  color: #1b3c59;
+}
+
+/* Stile nav */
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  height: 90px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.navbar-expand-lg {
+  justify-content: space-between;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light a img {
+  height: 60px;
+  margin: 15px 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light ul.navbar-nav li.nav-item {
+  margin: 0 5px;
+  padding: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light ul.navbar-nav li.nav-item a.nav-link {
+  color: #1b3c59;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light ul.navbar-nav li.nav-item.baf-cta {
+  margin: 0;
+  padding: 0;
+  border: 2px solid #61ce4e;
+  border-radius: 5px;
+  background-color: #61ce4e;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light ul.navbar-nav li.nav-item.baf-cta a.nav-link {
+  color: white;
+  padding: 7px 25px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light ul.navbar-nav li.nav-item.baf-cta a.nav-link:hover {
+  color: white;
+  background-color: #6bd858;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light ul.navbar-nav li.nav-item:hover {
+  border-bottom: 2px solid #61ce4e;
 }
 
 /*!

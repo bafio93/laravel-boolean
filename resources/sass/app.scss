@@ -1,5 +1,5 @@
-h1.bafbaf {
-    color: red;
-};
+@import "_variables";
+@import "_commons";
+@import "_navbar";
 //
 @import "node_modules/bootstrap/scss/bootstrap";

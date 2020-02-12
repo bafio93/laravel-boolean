@@ -106,6 +106,20 @@ footer img {
   height: 65px;
 }
 
+.container.baf-privacy h1 {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.container.baf-privacy h3 {
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.container.baf-privacy section {
+  margin: 40px 0;
+}
+
 .container-fluid.baf-oops,
 .baf-oops.container-xl,
 .baf-oops.container-lg,

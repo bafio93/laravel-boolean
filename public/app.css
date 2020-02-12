@@ -17,6 +17,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   left: 0;
   right: 0;
   top: 0;
+  z-index: 100;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.navbar-expand-lg {
@@ -104,6 +105,76 @@ footer .row.baf-bottom .col p {
 
 footer img {
   height: 65px;
+}
+
+.baf-home section.baf-home-jumbo {
+  background-color: white;
+  padding: 80px 0;
+}
+
+.baf-home section.baf-home-jumbo .container .row .col {
+  line-height: 1.5;
+}
+
+.baf-home section.baf-home-jumbo .container .row .col h1 {
+  font-size: 57px;
+}
+
+.baf-home section.baf-home-jumbo .container .row .col p {
+  font-size: 22px;
+}
+
+.baf-home section.baf-home-jumbo .container .row .col p ul {
+  font-size: 19px;
+  padding: 0;
+}
+
+.baf-home section.baf-home-jumbo .container .row .col img {
+  width: 500px;
+}
+
+.baf-home section.baf-home-data {
+  background-color: #1b3c59;
+  padding: 40px 0;
+}
+
+.baf-home section.baf-home-data .baf-card {
+  text-align: center;
+}
+
+.baf-home section.baf-home-data .baf-card h3 {
+  color: white;
+  font-size: 50px;
+}
+
+.baf-home section.baf-home-data .baf-card p {
+  color: white;
+}
+
+.baf-home section.baf-home-school {
+  background-color: #e8ebf1;
+  padding: 100px 0;
+}
+
+.baf-home section.baf-home-school .container .row .col {
+  line-height: 1.5;
+}
+
+.baf-home section.baf-home-school .container .row .col h3 {
+  font-size: 40px;
+}
+
+.baf-home section.baf-home-school .container .row .col p {
+  font-size: 19px;
+}
+
+.baf-home section.baf-home-school .container .row .col li {
+  padding: 10px 0;
+  font-size: 19px;
+}
+
+.baf-home section.baf-home-school .container .row .col img {
+  width: 500px;
 }
 
 .container.baf-privacy h1 {

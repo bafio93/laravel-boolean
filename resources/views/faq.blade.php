@@ -11,10 +11,22 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col baf-faq-box-left">
-                        <p>asd</p>
+                    <!-- Inizio a ciclare elementi dentro lista_faq_sinistra: -->
+                    @foreach($lista_faq_sinistra as $coppia)
+                    <div class="baf-questionbox">
+                        <p>{{ $coppia["q"] }}<i class="fas fa-plus"></i></p>
+                        <p class="baf-active">{!! $coppia["a"] !!}</p>
+                    </div>
+                    @endforeach
                 </div>
                 <div class="col baf-faq-box-right">
-                        <p>asd</p>
+                    <!-- Inizio a ciclare elementi dentro lista_faq_destra: -->
+                    @foreach($lista_faq_destra as $coppia)
+                    <div class="baf-questionbox">
+                        <p>{{ $coppia["q"] }}<i class="fas fa-plus"></i></p>
+                        <p class="baf-active">{!! $coppia["a"] !!}</p>
+                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>

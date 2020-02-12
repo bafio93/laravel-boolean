@@ -220,19 +220,25 @@ section.baf-faq-jumbo .container-sm p {
   font-size: 19px;
 }
 
+section.baf-faq-box .baf-active {
+  display: none;
+}
+
 section.baf-faq-box .baf-faq-box-left {
   padding: 0 80px;
   background-color: #e8ebf1;
-  height: 300px;
 }
 
 section.baf-faq-box .baf-faq-box-right {
   padding: 0 80px;
   background-color: #1b3c59;
-  height: 300px;
 }
 
 section.baf-faq-box .baf-faq-box-right p {
+  color: white;
+}
+
+section.baf-faq-box .baf-faq-box-right i {
   color: white;
 }
 

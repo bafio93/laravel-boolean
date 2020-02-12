@@ -19,20 +19,26 @@ section.baf-faq-jumbo{
 
 section.baf-faq-box {
 
+    .baf-active {
+        display: none;
+    }
+
     .baf-faq-box-left {
         padding: 0 80px;
         background-color: $colore_azzurro;
-        height: 300px;
     }
 
     .baf-faq-box-right {
         padding: 0 80px;
         background-color: $colore_blu;
-        height: 300px;
 
         p {
             color: $colore_bianco;
 
+        }
+
+        i {
+            color: $colore_bianco;
         }
     }
 

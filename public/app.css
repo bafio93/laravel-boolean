@@ -191,6 +191,51 @@ footer img {
   margin: 40px 0;
 }
 
+section.baf-faq-jumbo {
+  background-color: white;
+}
+
+section.baf-faq-jumbo .container-fluid,
+section.baf-faq-jumbo .container-xl,
+section.baf-faq-jumbo .container-lg,
+section.baf-faq-jumbo .container-md,
+section.baf-faq-jumbo .container-sm {
+  padding: 50px 80px;
+}
+
+section.baf-faq-jumbo .container-fluid h1,
+section.baf-faq-jumbo .container-xl h1,
+section.baf-faq-jumbo .container-lg h1,
+section.baf-faq-jumbo .container-md h1,
+section.baf-faq-jumbo .container-sm h1 {
+  font-weight: bold;
+  font-size: 44px;
+}
+
+section.baf-faq-jumbo .container-fluid p,
+section.baf-faq-jumbo .container-xl p,
+section.baf-faq-jumbo .container-lg p,
+section.baf-faq-jumbo .container-md p,
+section.baf-faq-jumbo .container-sm p {
+  font-size: 19px;
+}
+
+section.baf-faq-box .baf-faq-box-left {
+  padding: 0 80px;
+  background-color: #e8ebf1;
+  height: 300px;
+}
+
+section.baf-faq-box .baf-faq-box-right {
+  padding: 0 80px;
+  background-color: #1b3c59;
+  height: 300px;
+}
+
+section.baf-faq-box .baf-faq-box-right p {
+  color: white;
+}
+
 .container-fluid.baf-oops,
 .baf-oops.container-xl,
 .baf-oops.container-lg,

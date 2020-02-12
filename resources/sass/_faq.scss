@@ -1,0 +1,39 @@
+section.baf-faq-jumbo{
+    background-color: $colore_bianco;
+
+    .container-fluid {
+        padding: 50px 80px;
+
+        h1 {
+            font-weight: bold;
+            font-size: 44px;
+        }
+
+        p {
+            font-size: 19px;
+        }
+
+    }
+
+}
+
+section.baf-faq-box {
+
+    .baf-faq-box-left {
+        padding: 0 80px;
+        background-color: $colore_azzurro;
+        height: 300px;
+    }
+
+    .baf-faq-box-right {
+        padding: 0 80px;
+        background-color: $colore_blu;
+        height: 300px;
+
+        p {
+            color: $colore_bianco;
+
+        }
+    }
+
+}

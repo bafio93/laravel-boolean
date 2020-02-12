@@ -220,8 +220,16 @@ section.baf-faq-jumbo .container-sm p {
   font-size: 19px;
 }
 
-section.baf-faq-box .baf-active {
+section.baf-faq-box .baf-answer {
   display: none;
+}
+
+section.baf-faq-box p {
+  width: 100%;
+}
+
+section.baf-faq-box p i {
+  text-align: right;
 }
 
 section.baf-faq-box .baf-faq-box-left {
@@ -234,11 +242,9 @@ section.baf-faq-box .baf-faq-box-right {
   background-color: #1b3c59;
 }
 
-section.baf-faq-box .baf-faq-box-right p {
-  color: white;
-}
-
-section.baf-faq-box .baf-faq-box-right i {
+section.baf-faq-box .baf-faq-box-right p,
+section.baf-faq-box .baf-faq-box-right i,
+section.baf-faq-box .baf-faq-box-right h2 {
   color: white;
 }
 

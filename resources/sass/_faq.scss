@@ -19,8 +19,17 @@ section.baf-faq-jumbo{
 
 section.baf-faq-box {
 
-    .baf-active {
+    .baf-answer {
         display: none;
+    }
+
+    p {
+        width: 100%;
+
+        i {
+            text-align: right;
+        }
+
     }
 
     .baf-faq-box-left {
@@ -32,14 +41,10 @@ section.baf-faq-box {
         padding: 0 80px;
         background-color: $colore_blu;
 
-        p {
-            color: $colore_bianco;
-
-        }
-
-        i {
+        p,i,h2 {
             color: $colore_bianco;
         }
+
     }
 
 }

@@ -220,16 +220,34 @@ section.baf-faq-jumbo .container-sm p {
   font-size: 19px;
 }
 
+section.baf-faq-box {
+  line-height: 1.5;
+}
+
 section.baf-faq-box .baf-answer {
   display: none;
 }
 
 section.baf-faq-box p {
-  width: 100%;
+  font-size: 120%;
 }
 
-section.baf-faq-box p i {
-  text-align: right;
+section.baf-faq-box h2 {
+  margin-top: 40px;
+  font-size: 35px;
+}
+
+section.baf-faq-box h3 {
+  width: 100%;
+  margin-top: 40px;
+}
+
+section.baf-faq-box h3:last-of-type {
+  margin-bottom: 40px;
+}
+
+section.baf-faq-box h3 i {
+  float: right;
 }
 
 section.baf-faq-box .baf-faq-box-left {
@@ -242,9 +260,10 @@ section.baf-faq-box .baf-faq-box-right {
   background-color: #1b3c59;
 }
 
-section.baf-faq-box .baf-faq-box-right p,
 section.baf-faq-box .baf-faq-box-right i,
-section.baf-faq-box .baf-faq-box-right h2 {
+section.baf-faq-box .baf-faq-box-right p,
+section.baf-faq-box .baf-faq-box-right h2,
+section.baf-faq-box .baf-faq-box-right h3 {
   color: white;
 }
 

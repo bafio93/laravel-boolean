@@ -30,7 +30,7 @@ return[
         [
             "q"=>"Quanto costa il corso?",
             // Forse problematica, attenzione!
-            "a"=>"Trovi tutte le informazioni sul prezzo nella <a href='{{ route('nolink_page') }}'>apposita sezione</a> della pagina corso."
+            "a"=>"Trovi tutte le informazioni sul prezzo nella <a href='nolink'>apposita sezione</a> della pagina corso."
         ]
     ],
     // Elenco di faq, parte a destra.

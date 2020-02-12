@@ -18,16 +18,31 @@ section.baf-faq-jumbo{
 }
 
 section.baf-faq-box {
+    line-height: 1.5;
 
     .baf-answer {
         display: none;
     }
 
     p {
+        font-size: 120%;
+    }
+
+    h2 {
+        margin-top: 40px;
+        font-size: 35px;
+    }
+
+    h3 {
         width: 100%;
+        margin-top: 40px;
+
+        &:last-of-type {
+            margin-bottom: 40px;
+        }
 
         i {
-            text-align: right;
+            float: right;
         }
 
     }
@@ -41,7 +56,7 @@ section.baf-faq-box {
         padding: 0 80px;
         background-color: $colore_blu;
 
-        p,i,h2 {
+        i,p,h2,h3 {
             color: $colore_bianco;
         }
 

@@ -15,7 +15,7 @@
                     <!-- Inizio a ciclare elementi dentro lista_faq_sinistra: -->
                     @foreach($lista_faq_sinistra as $coppia)
                     <div class="baf-questionbox">
-                        <p>{{ $coppia["q"] }}<i class="fas fa-plus"></i></p>
+                        <h3>{{ $coppia["q"] }}<i class="fas fa-plus"></i></h3>
                         <p class="baf-answer">{!! $coppia["a"] !!}</p>
                     </div>
                     @endforeach
@@ -25,7 +25,7 @@
                     <!-- Inizio a ciclare elementi dentro lista_faq_destra: -->
                     @foreach($lista_faq_destra as $coppia)
                     <div class="baf-questionbox">
-                        <p>{{ $coppia["q"] }}<i class="fas fa-plus"></i></p>
+                        <h3>{{ $coppia["q"] }}<i class="fas fa-plus"></i></h3>
                         <p class="baf-answer">{!! $coppia["a"] !!}</p>
                     </div>
                     @endforeach

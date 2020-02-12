@@ -19,5 +19,6 @@
             </div>
         </div>
     </section>
+    <script src="{{ asset('app.js') }}" type="text/javascript"></script>
     @include("layouts.footer")
 @endsection

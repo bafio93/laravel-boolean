@@ -21,4 +21,8 @@ Route::get('/faq', function () {
 
 Route::get('/privacy', function () {
     return view('privacy');
-})->name("privacy_page");;
+})->name("privacy_page");
+
+Route::get('/nolink', function () {
+    return view('nolink');
+})->name("nolink_page");
